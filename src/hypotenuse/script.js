@@ -5,10 +5,13 @@ var finalOP = document.querySelector("#output-div");
 
 finalOP.style.display="none";
 
-var base = length1.value;
-var height = length2.value;
+
 
 function clickHandler(e){
+
+    var base = length1.value;
+    var height = length2.value;
+
     if(!base || !height){
         finalOP.innerHTML = "Enter the values for base and height above respectively.";    
         finalOP.style.display="block";
