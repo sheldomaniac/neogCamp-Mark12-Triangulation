@@ -6,8 +6,8 @@ finalOP.style.display="none";
 
 var finalScore = 0;
 
-var answerArray = ["180°", "right", "60", "obtuse", "Yes", "void", "obtuse", "pytho", "right","0" ];
-var typeAnswer = [0,0,0,1,0,1, 0, 0, 1, 0];
+var answerArray = ["180°", "right", "60", "obtuse", "Yes", "void", "obtuse", "pytho", "right","0", "1", "2" ];
+var typeAnswer = [0,0,0,1,0,1, 0, 0, 1, 0, 0, 0];
 
 
 
