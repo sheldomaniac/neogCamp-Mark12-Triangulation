@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Area</title>
+    <link href="./src/style.css" rel="stylesheet">
+</head>
+<header>
+    <nav>
+        <a href="#" class="triangles">Triangle Area</a>
+        <a href="./index.html" class="navigations">Triangle Home</a>
+        <a href="./angles.html" class="navigations">Angles</a>
+        <a href="./hypotenuse.html" class="navigations">Hypotenuse</a>
+        <a href="./trianglearea.html" class="navigations">Area</a>
+        <a href="./trianglequiz.html" class="navigations">Quiz</a>
+    </nav>
+</header>
+<body>
+<main>
+    <h2>Enter the lengths of any two sides and the angle between them. We shall provide you with the area of the triangle.</h2>
+    <p>Note: The angle must be greater than 0&#xb0; and less than 180&#xb0;.</p>
+
+    <img src="./src/images/area.jpg" alt="image showing parts of a right triangle">
+
+    <div class="container">
+    <p>
+        <label name="length-1">Enter the length of the side 1:</label>
+        <input type="number" id="length-1" name="length-1">
+    </p>
+    </div>
+    <div class="container">
+    <p>
+        <label name="length-2">Enter the length of the side 2:</label>
+        <input type="number" id="length-2" name="length-2">
+    </p>
+    </div>
+    <div class="container">
+    <p>
+        <label name="angle-1">Enter the angle in degrees:</label>
+        <input type="number" id="angle-1" name="angle-1">
+    </p>
+    </div>
+
+    <button id="check">Calculate Area</button>
+
+    <div id="output-div"></div>
+    
+</main>
+</body>
+<footer>
+    <nav class="footer-nav">      
+            <div class="social-media">
+                <a href="https://github.com/sheldomaniac"><img src="src/images/github.svg" alt="my github link" class="feedback-github fb-images"></a>
+                <a href="https://www.linkedin.com/in/sheldon-mendonca"><img src="src/images/linkedin.svg" alt="my linked-in link" class="feedback-linkedin fb-images"></a>
+                <a href="https://www.facebook.com/sheldon.mendonca.9/"><img src="src/images/facebook.svg" alt="my facebook link" class="feedback-fb fb-images"></a>
+                <a href="https://www.instagram.com/sheldon_mendonca/"><img src="src/images/instagram.svg" alt="my insta link" class="feedback-insta fb-images"></a>
+                <a href="https://sheldomaniac-portfolio.netlify.app/index.html"><img src="src/images/home.svg" alt="my home page" class="portfolio-page fb-images"></a>
+            </div>		
+        </nav>
+    <p class="footer-text">&#169; Copyright by Sheldon Mendonca.</p>
+    
+    </footer>
+<script src="./src/triangleArea/script.js"></script>
+</html>
